@@ -1,12 +1,12 @@
 import './App.css';
-import  Navigation from './Components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FrontPage from './Components/frontPage/frontPage';
 
 
 function App() {
   return (
     <div >
-      <Navigation/>  
+      <FrontPage/>
     </div>
   );
 }

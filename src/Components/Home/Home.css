@@ -1,61 +1,13 @@
 
-.bg{
-    background-image: url("../../bg1.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
-    /* For animation in background image */
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-
-    height: 100vh;
-}
-
-
-
-
-/* Brings animation to background image */
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-
-/* 
   body {
     padding: 0;
-    margin: 0!important;
+     margin: auto!important; 
     background-color: #000!important;
   
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  } */
+  }
 
  
   h1 {
@@ -86,11 +38,6 @@
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
   }
 
-
-
-  .qt{
-    font-size: large;
-  }
 
 
   
