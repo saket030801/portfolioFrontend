@@ -1,11 +1,15 @@
 import React  from "react"
+import Text from "./Text/Text"
 
 
 export default function About (){
     
         return(
             
-            <h1>This is about section</h1>
+           
+                <Text text={"hi!!! This is saket. i am a software developer."}/>
+            
+            
             
             
         )  
